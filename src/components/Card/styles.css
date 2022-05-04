@@ -1,0 +1,53 @@
+.Card {
+    width: 520px;
+    height: 87px;
+    display: flex;
+    background-color: #F8F9FA;
+    margin-bottom: 32px ;
+    padding: 15px 20px 0px 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+.Card button {
+    background-color: #E9ECEF;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    padding:6px;
+}
+
+.Card .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.Card .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Card p{
+    margin:0;
+}
+
+.right p{
+    width: 102px;
+    font-size: 12px;
+    font-weight: 400;
+    height:22px;
+    display: flex;
+    align-items: center;
+    
+}
+.left p{
+    color:#868E96;
+    font-size: 12px;
+    font-weight: 400;
+}
+button :hover{
+    cursor: pointer;
+}
